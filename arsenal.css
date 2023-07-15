@@ -1,0 +1,396 @@
+html{
+    position:sticky;
+    margin-left: 0;
+    padding: 0;
+    background-color: rgb(240, 0, 0); 
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 116%;
+    background-color: whitesmoke;
+ 
+}
+p{
+    text-align: start;
+    border: none;
+
+}
+h2
+{
+    color : rgb(240, 0, 0);
+    text-align: center;
+}
+h3
+{
+    color : rgb(240, 0, 0);
+    text-align: center;
+}
+.box-a 
+{
+
+    padding-left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-family:'Agencygothic';
+    letter-spacing: 4px;
+    font-size: 160%;
+    text-align: center;
+    text-shadow: 2px 10px 0 rgba(255, 255, 255, 0.108);
+    background-image: url(../css/images/arsenallogo.png),url(../css/images/emirates.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%, 100%;;
+    background-position-x: 28px,0px;
+    background-position: left,center;
+    margin-bottom: 30px;
+    
+}
+.box-b
+{
+    background-color: rgb(240, 0, 0);
+    padding: 20px;
+    color:white;
+    width: 300px;
+    height: 917px;
+    line-height: 60px;
+   
+}
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 2px;
+}
+.site-nav a{
+    margin-top: 20px;
+    padding: 12px 50px;
+    border-bottom: 3px solid coral;
+    border-top: 3px solid coral;
+    border-left: 3px solid coral;
+    border-right: 3px solid coral;
+    color: white;
+    background-color: rgb(240, 0, 0);
+    border-radius: 10px 25px;
+    transition-property: all;
+    transition-duration: 1.6s;
+    
+}
+.site-nav a:hover {
+    background-color:rgb(240, 0, 0);
+}
+.emirates{
+    margin: 40px;
+    max-width: 92%;
+    height:auto ;
+
+}
+.image-banner{
+    position: relative;
+}
+.banner-desc{
+    position: absolute;
+    bottom:45px;
+    right: 38px;
+    left: 40px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding:15px 25px ;
+}
+fieldset{
+    margin: 20px;
+}
+table{
+    margin: 40px;
+    margin-bottom: 70px;
+    width: 80%;
+    padding: 10px;
+   
+}
+table th{
+    text-align: center;
+    background-color: white;
+    color: rgb(240, 0, 0);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    border-collapse: collapse;
+}
+table tbody tr:nth-child(odd) td{
+    background-color: rgb(240, 0, 0);
+    color: whitesmoke;
+}
+table th,table td
+{
+    border: 1px solid rgb(240, 0, 0);
+    text-align: center;
+    
+}
+fieldset{
+    background-color: rgb(240, 0, 0);
+    color: white;
+}
+input[type="email"],
+input[type="text"]
+{
+    width: 80%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+}
+input[type="tel"]:focus{
+    border: 1px solid black;
+}
+input[type="submit"]{
+    width: 80%;
+    display: block;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    color: rgb(240, 0, 0);
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input[type="submit"]:hover{
+    border: 1px solid black;
+    background-color: rgb(240, 0, 0);
+    color: whitesmoke;
+   
+}
+.site-nav a:hover{
+    background-color: white;
+    color: rgb(240, 0, 0);
+    border: 3px solid rgb(240, 0, 0);
+    box-sizing: border-box;
+    border-radius: 10px 25px;
+}
+@font-face {
+    font-family: 'Agencygothic';
+    src: url('font/AgencyGothicCT-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    margin-top : 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+
+    padding-right: 40px;
+    padding-top: 40px;
+    max-width: 1020px;
+    border-bottom: 3px solid rgb(240, 0, 0);
+    
+}
+
+    
+
+.content-area{
+    margin-top: 80px;
+    border-top: 3px solid rgb(240, 0, 0);
+    border-bottom: 3px solid rgb(240, 0, 0);
+    color: rgb(240, 0, 0);
+
+    position: 0 10px;
+    background-color: red;
+   
+}
+.main-area{
+    width: 65%;
+    float:left;
+    
+    height: 420px;
+}
+.sidebar{
+    width: 35%;
+    float: right ;
+    height: 420px;
+    background-image: url(../css/images/arsenallogo.png),url(../css/images/logo2.webp),url(../css/images/arsenallogo.png),url(../css/images/fcblogo.png);
+    background-size: 10% ,12%,10%,20%;
+    background-repeat: no-repeat;
+    background-position-x: 15px,300px,15px,285px;
+    background-position-y: 60px,55px,162px,162px;
+
+}
+.match1{
+    margin-bottom: 80px;
+}
+.team{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+}
+h5{
+background-color: rgb(240, 0, 0);
+color:whitesmoke;
+font-size: large;
+line-height: 2;
+padding: 50px;
+
+}
+.box-b:nth-child(1){
+    grid-row: span 8;
+
+}
+.ar{
+    background-image:url(../css/images/ar.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position-x:-30px ;
+
+
+}
+.ws{
+    background-image:url(../css/images/ws.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.bw{
+    background-image:url(../css/images/bw.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.gm1{
+    background-image:url(../css/images/gm1.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.oz{
+    background-image:url(../css/images/oz.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.dr{
+    background-image:url(../css/images/gx.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.kh{
+    background-image:url(../css/images/dr.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.mo{
+    background-image:url(../css/images/mo.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.gm2{
+    background-image:url(../css/images/gm2.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position-x:-30px ;
+}
+.bs{
+    background-image:url(../css/images/bs.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+    
+}
+.gj{
+    background-image:url(../css/images/gj.webp) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-align:center;
+ 
+}
+.Manager{
+    color: whitesmoke
+}
+.art-banner{
+    background-color: plum;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 20px;
+    grid-template-rows: 20px 1fr 1fr 1fr 20px;
+}
+.art-banner-bg{
+    opacity: 0.9;
+    background: url("images/Tcva6OVeZxZtcoC.jpg");
+    background-size: cover;
+    grid-column: 1 / -1;
+    background-size: 100%;
+    grid-row: 1 /-1;
+
+}
+.banner-text{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 8vw;
+    font-weight: bold;
+    grid-column: 1 / 5 ;
+    grid-row: 1 / 3;
+    z-index: 1;
+    
+}
+.badge{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-color: rgb(240, 0, 0);
+    color: whitesmoke;
+    font-size: 2.5vw;
+    font-weight: bold;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    transform: rotate(15deg);
+}
+.badge2{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-color: rgb(240, 0, 0);
+    color: whitesmoke;
+    font-size: 2.5vw;
+    font-weight: bold;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    transform: rotate(15deg);
+}
+.badge p{
+    margin: auto;
+}
+.badge2 p{
+    margin: auto;
+}
+.ss12{
+    margin: 10px;
+    width: 1050px;
+    height: auto;
+}
+.ss11{
+    margin: 10px;
+    width: 1050px;
+    height: auto;
+
+}
+.ss13{
+    margin: 10px;
+    width: 1050px;
+    height: auto;
+
+}
